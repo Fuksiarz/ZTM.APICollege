@@ -109,15 +109,15 @@ namespace ZTM.Infrastructure.Migrations
                 name: "StopTimetable",
                 columns: table => new
                 {
-                    TimetableId = table.Column<int>(type: "INTEGER", nullable: false),
+                    ScheduleId = table.Column<int>(type: "INTEGER", nullable: false),
                     TimetablesId = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_StopTimetable", x => new { x.TimetableId, x.TimetablesId });
+                    table.PrimaryKey("PK_StopTimetable", x => new { x.ScheduleId, x.TimetablesId });
                     table.ForeignKey(
-                        name: "FK_StopTimetable_Stop_TimetableId",
-                        column: x => x.TimetableId,
+                        name: "FK_StopTimetable_Stop_ScheduleId",
+                        column: x => x.ScheduleId,
                         principalTable: "Stop",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);

@@ -1,0 +1,15 @@
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\bin\Debug\net6.0\ZTM.CORE.deps.json
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\bin\Debug\net6.0\ZTM.CORE.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\bin\Debug\net6.0\ZTM.CORE.pdb
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\bin\Debug\net6.0\ZTM.Infrastructure.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\bin\Debug\net6.0\ZTM.Infrastructure.pdb
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.csproj.AssemblyReference.cache
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.AssemblyInfoInputs.cache
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.AssemblyInfo.cs
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.csproj.CoreCompileInputs.cache
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.csproj.CopyComplete
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\refint\ZTM.CORE.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ZTM.CORE.pdb
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.CORE\obj\Debug\net6.0\ref\ZTM.CORE.dll

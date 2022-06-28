@@ -18,10 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <ProjectReference Include="..\ZTM.CORE\ZTM.CORE.csproj" />
       <ProjectReference Include="..\ZTM.Infrastructure\ZTM.Infrastructure.csproj" />
     </ItemGroup>
 

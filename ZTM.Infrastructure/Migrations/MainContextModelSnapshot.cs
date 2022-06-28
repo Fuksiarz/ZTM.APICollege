@@ -19,13 +19,13 @@ namespace ZTM.Infrastructure.Migrations
 
             modelBuilder.Entity("StopTimetable", b =>
                 {
-                    b.Property<int>("TimetableId")
+                    b.Property<int>("ScheduleId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("TimetablesId")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("TimetableId", "TimetablesId");
+                    b.HasKey("ScheduleId", "TimetablesId");
 
                     b.HasIndex("TimetablesId");
 
@@ -141,7 +141,7 @@ namespace ZTM.Infrastructure.Migrations
                 {
                     b.HasOne("ZTM.Infrastructure.Entities.Stop", null)
                         .WithMany()
-                        .HasForeignKey("TimetableId")
+                        .HasForeignKey("ScheduleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -166,19 +166,19 @@ namespace ZTM.Infrastructure.Migrations
             modelBuilder.Entity("ZTM.Infrastructure.Entities.Stop", b =>
                 {
                     b.HasOne("ZTM.Infrastructure.Entities.Bus", null)
-                        .WithMany("Stops")
+                        .WithMany("Schedule")
                         .HasForeignKey("BusId");
 
                     b.HasOne("ZTM.Infrastructure.Entities.Bus", null)
-                        .WithMany("Timetable")
+                        .WithMany("Stops")
                         .HasForeignKey("BusId1");
 
                     b.HasOne("ZTM.Infrastructure.Entities.Driver", null)
-                        .WithMany("Timetable")
+                        .WithMany("Schedule")
                         .HasForeignKey("DriverId");
 
                     b.HasOne("ZTM.Infrastructure.Entities.Stop", null)
-                        .WithMany("Timetable")
+                        .WithMany("Schedule")
                         .HasForeignKey("StopId");
                 });
 
@@ -195,19 +195,19 @@ namespace ZTM.Infrastructure.Migrations
 
             modelBuilder.Entity("ZTM.Infrastructure.Entities.Bus", b =>
                 {
-                    b.Navigation("Stops");
+                    b.Navigation("Schedule");
 
-                    b.Navigation("Timetable");
+                    b.Navigation("Stops");
                 });
 
             modelBuilder.Entity("ZTM.Infrastructure.Entities.Driver", b =>
                 {
-                    b.Navigation("Timetable");
+                    b.Navigation("Schedule");
                 });
 
             modelBuilder.Entity("ZTM.Infrastructure.Entities.Stop", b =>
                 {
-                    b.Navigation("Timetable");
+                    b.Navigation("Schedule");
                 });
 #pragma warning restore 612, 618
         }

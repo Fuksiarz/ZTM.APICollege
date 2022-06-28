@@ -532,6 +532,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "ZTM.CORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ZTM.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ZTM.CORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZTM.CORE.dll": {}
+        }
+      },
       "ZTM.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1331,6 +1344,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ZTM.CORE/1.0.0": {
+      "type": "project",
+      "path": "../ZTM.CORE/ZTM.CORE.csproj",
+      "msbuildProject": "../ZTM.CORE/ZTM.CORE.csproj"
+    },
     "ZTM.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../ZTM.Infrastructure/ZTM.Infrastructure.csproj",
@@ -1343,6 +1361,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3",
       "Swashbuckle.AspNetCore >= 6.2.3",
+      "ZTM.CORE >= 1.0.0",
       "ZTM.Infrastructure >= 1.0.0"
     ]
   },
@@ -1371,6 +1390,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj": {
+              "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj"
+            },
             "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj"
             }

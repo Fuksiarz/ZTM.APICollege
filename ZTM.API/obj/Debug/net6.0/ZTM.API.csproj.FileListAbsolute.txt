@@ -54,3 +54,5 @@ C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\obj\Debug\net6.0\refint\ZTM.API.dll
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\obj\Debug\net6.0\ZTM.API.pdb
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\obj\Debug\net6.0\ZTM.API.genruntimeconfig.cache
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\obj\Debug\net6.0\ref\ZTM.API.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\bin\Debug\net6.0\ZTM.CORE.dll
+C:\Users\Adi\RiderProjects\ZTM.API\ZTM.API\bin\Debug\net6.0\ZTM.CORE.pdb

@@ -6,7 +6,7 @@ public class Bus : BaseEntity
 {
     public Driver Driver { get; set; }
     public int Line { get; set; }
-    public int Destination { get; set; }
-    public List<Stop> Stops{ get; set; }
+    public string Destination { get; set; }
+    public IEnumerable<Stop> Stops{ get; set; }
 
 }
