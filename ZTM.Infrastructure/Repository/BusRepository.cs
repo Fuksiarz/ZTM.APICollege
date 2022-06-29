@@ -41,6 +41,11 @@ public class BusRepository:IBusRepository
 
     }
 
+    public Task Update(int id, Bus entity)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task Update(Bus entity)
     {
         var busToUpdate = await _mainContext.Bus.SingleOrDefaultAsync(x => x.Id == entity.Id);
@@ -53,7 +58,7 @@ public class BusRepository:IBusRepository
         busToUpdate.Driver = entity.Driver;
         busToUpdate.Line = entity.Line;
         busToUpdate.Stops = entity.Stops;
-        busToUpdate.Schedule = entity.Schedule;
+        
         await _mainContext.SaveChangesAsync();
     }
 

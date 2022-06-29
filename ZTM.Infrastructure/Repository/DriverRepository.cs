@@ -41,19 +41,19 @@ public class DriverRepository:IDriverRepository
 
     }
 
-    public async Task Update(Driver entity)
+    public async Task Update(int id, Driver entity)
     {
-        var driverToUpdate = await _mainContext.Driver.SingleOrDefaultAsync(x => x.Id == entity.Id);
-        if (driverToUpdate == null)
-        {
-            throw new EntityNotFoundException();
+        var driverToUpdate = await _mainContext.Driver.FindAsync(id);
+        if (driverToUpdate != null)
+        { 
+            driverToUpdate.Surname = entity.Surname;
+            driverToUpdate.FirstName = entity.FirstName;
         }
-
-        driverToUpdate.Surname = entity.Surname;
-        driverToUpdate.FirstName = entity.FirstName;
-        
         await _mainContext.SaveChangesAsync();
     }
+
+   
+    
 
     public async Task DeleteById(int id)
     {
@@ -64,6 +64,8 @@ public class DriverRepository:IDriverRepository
             await _mainContext.SaveChangesAsync();
         }
 
-        throw new EntityNotFoundException();
+        
     }
+
+    
 }

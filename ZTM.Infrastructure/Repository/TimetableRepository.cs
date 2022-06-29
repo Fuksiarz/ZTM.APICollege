@@ -41,6 +41,11 @@ public class TimetableRepository:ITimetableRepository
 
     }
 
+    public Task Update(int id, Timetable entity)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task Update(Timetable entity)
     {
         var timetableToUpdate = await _mainContext.Timetable.SingleOrDefaultAsync(x => x.Id == entity.Id);

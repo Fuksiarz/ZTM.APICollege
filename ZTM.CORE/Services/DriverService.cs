@@ -28,9 +28,29 @@ public class DriverService:IDriverService
         await _driverRepository.Add(new Driver()
         {
             FirstName = dto.FirstName,
-            Surname = dto.Surname
+            Surname = dto.Surname,
+            
+            
         });
 
     }
 
+    public async Task UpdateDriver(int id,DriverBasicInformationResponseDto dto)
+    {
+        var wantedDriver = await _driverRepository.GetById(id);
+        
+        await _driverRepository.Update(wantedDriver.Id,new Driver()
+        {
+            FirstName = dto.FirstName,
+            Surname = dto.Surname
+        });
+        
+    }
+
+    public async Task DeleteDriver(int id)
+    {
+        var book = new Driver() {Id = id};
+            await _driverRepository.DeleteById(id);
+            
+    }
 }

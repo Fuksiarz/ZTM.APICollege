@@ -41,6 +41,11 @@ public class StopRepository:IStopRepository
 
     }
 
+    public Task Update(int id, Stop entity)
+    {
+        throw new NotImplementedException();
+    }
+
     public async Task Update(Stop entity)
     {
         var stopToUpdate = await _mainContext.Stop.SingleOrDefaultAsync(x => x.Id == entity.Id);

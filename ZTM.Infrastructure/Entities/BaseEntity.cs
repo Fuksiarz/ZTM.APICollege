@@ -9,5 +9,5 @@ public class BaseEntity
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int Id { get; set; }
-    public IEnumerable<Stop> Schedule { get; set; }
+    
 }
