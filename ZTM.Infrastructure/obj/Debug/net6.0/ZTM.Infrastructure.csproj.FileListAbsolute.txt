@@ -10,3 +10,15 @@ C:\Users\Adi\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infra
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\refint\ZTM.Infrastructure.dll
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.pdb
 C:\Users\Adi\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ref\ZTM.Infrastructure.dll
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\bin\Debug\net6.0\ZTM.Infrastructure.deps.json
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\bin\Debug\net6.0\ZTM.Infrastructure.dll
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\bin\Debug\net6.0\ZTM.Infrastructure.pdb
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.AssemblyInfo.cs
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.dll
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\refint\ZTM.Infrastructure.dll
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ZTM.Infrastructure.pdb
+C:\Users\s21488\RiderProjects\ZTM.API\ZTM.Infrastructure\obj\Debug\net6.0\ref\ZTM.Infrastructure.dll

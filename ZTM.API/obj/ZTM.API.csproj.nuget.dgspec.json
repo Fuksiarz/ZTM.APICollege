@@ -1,36 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj": {}
+    "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj": {
+    "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj",
+        "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj",
         "projectName": "ZTM.API",
-        "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj",
-        "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.API\\obj\\",
+        "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.API\\ZTM.API.csproj",
+        "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj": {
-                "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj"
+              "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj": {
+                "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj"
               },
-              "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj"
+              "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj"
               }
             }
           }
@@ -82,34 +88,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj": {
+    "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj",
+        "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj",
         "projectName": "ZTM.CORE",
-        "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj",
-        "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.CORE\\obj\\",
+        "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\ZTM.CORE.csproj",
+        "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.CORE\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj"
+              "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj"
               }
             }
           }
@@ -138,26 +150,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
+    "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj",
         "projectName": "ZTM.Infrastructure",
-        "projectPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Adi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adi\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\ZTM.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\s21488\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s21488\\RiderProjects\\ZTM.API\\ZTM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Adi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\s21488\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -200,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
